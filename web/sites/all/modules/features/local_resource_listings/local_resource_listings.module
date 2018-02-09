@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Local resource listings feature.
+ */
+
+include_once 'local_resource_listings.features.inc';
