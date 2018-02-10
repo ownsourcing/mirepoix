@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe79ad77b2bc945d8dbf8c5996e3ddd4",
+    "content-hash": "006672a6ec57ff609b185e9bb17c2b2d",
     "packages": [
         {
             "name": "behat/behat",
@@ -867,6 +867,69 @@
             "time": "2017-02-03T11:32:31+00:00"
         },
         {
+            "name": "drupal/backup_migrate",
+            "version": "3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/backup_migrate",
+                "reference": "7.x-3.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/backup_migrate-7.x-3.5.zip",
+                "reference": "7.x-3.5",
+                "shasum": "77418322d2869240880ba309ca91dab873c5a598"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-3.5",
+                    "datestamp": "1517871480",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Andrascu",
+                    "homepage": "https://www.drupal.org/user/429248"
+                },
+                {
+                    "name": "DamienMcKenna",
+                    "homepage": "https://www.drupal.org/user/108450"
+                },
+                {
+                    "name": "dgorton",
+                    "homepage": "https://www.drupal.org/user/19044"
+                },
+                {
+                    "name": "ikit-claw",
+                    "homepage": "https://www.drupal.org/user/3285813"
+                },
+                {
+                    "name": "ronan",
+                    "homepage": "https://www.drupal.org/user/72815"
+                }
+            ],
+            "description": "Backup the Drupal database and files or migrate them to another environment.",
+            "homepage": "https://www.drupal.org/project/backup_migrate",
+            "support": {
+                "source": "http://cgit.drupalcode.org/backup_migrate"
+            }
+        },
+        {
             "name": "drupal/composer_autoloader",
             "version": "1.2.0",
             "source": {
@@ -1530,6 +1593,74 @@
             "homepage": "https://www.drupal.org/project/node_export",
             "support": {
                 "source": "http://cgit.drupalcode.org/node_export"
+            }
+        },
+        {
+            "name": "drupal/strongarm",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/strongarm",
+                "reference": "7.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/strongarm-7.x-2.0.zip",
+                "reference": "7.x-2.0",
+                "shasum": "51600bef5ca2ac240958764e1e8389f70639595c"
+            },
+            "require": {
+                "drupal/ctools": "*",
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-2.0",
+                    "datestamp": "1339604214",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "bblake",
+                    "homepage": "https://www.drupal.org/user/620248"
+                },
+                {
+                    "name": "febbraro",
+                    "homepage": "https://www.drupal.org/user/43670"
+                },
+                {
+                    "name": "hefox",
+                    "homepage": "https://www.drupal.org/user/426416"
+                },
+                {
+                    "name": "mpotter",
+                    "homepage": "https://www.drupal.org/user/616192"
+                },
+                {
+                    "name": "skwashd",
+                    "homepage": "https://www.drupal.org/user/116305"
+                },
+                {
+                    "name": "tirdadc",
+                    "homepage": "https://www.drupal.org/user/383630"
+                }
+            ],
+            "description": "Enforces variable values defined by modules that need settings set to operate properly.",
+            "homepage": "https://www.drupal.org/project/strongarm",
+            "support": {
+                "source": "http://cgit.drupalcode.org/strongarm"
             }
         },
         {

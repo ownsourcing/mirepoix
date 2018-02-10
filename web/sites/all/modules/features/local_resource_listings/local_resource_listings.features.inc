@@ -5,6 +5,15 @@
  */
 
 /**
+ * Implements hook_ctools_plugin_api().
+ */
+function local_resource_listings_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "strongarm" && $api == "strongarm") {
+    return array("version" => "1");
+  }
+}
+
+/**
  * Implements hook_node_info().
  */
 function local_resource_listings_node_info() {
