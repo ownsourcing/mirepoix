@@ -12,6 +12,6 @@ default:
     Behat\MinkExtension:
       goutte: ~
       selenium2: ~
-      base_url: http://behd7.test:8888/
+      base_url: http://mirepoix.test
     Drupal\DrupalExtension:
       blackbox: ~
